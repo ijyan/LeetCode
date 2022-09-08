@@ -4,6 +4,5 @@
  * @return {string}
  */
 var addBinary = function(a, b) {
-  const result = BigInt('0b' + a) + BigInt('0b' + b);
-  return result.toString(2);
+  return (BigInt("0b" + a) + BigInt("0b" + b)).toString(2);
 };
