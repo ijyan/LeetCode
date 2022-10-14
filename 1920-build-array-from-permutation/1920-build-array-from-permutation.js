@@ -3,7 +3,5 @@
  * @return {number[]}
  */
 var buildArray = function(nums) {
-  let answer = [];
-  nums.forEach(v => answer.push(nums[v]));
-  return answer;
+  return nums.map(v => nums[v]);
 };
